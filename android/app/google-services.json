@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1098658540339",
+    "project_id": "phone-authentication-flutt",
+    "storage_bucket": "phone-authentication-flutt.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1098658540339:android:844ca44837b31c88806c46",
+        "android_client_info": {
+          "package_name": "com.example.firebase_phone_authentication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA698wH4chmypO6fUtSV9lk7E_ZRddZCUY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
