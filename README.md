@@ -1,20 +1,41 @@
 # firebase_phone_authentication
+![image](https://github.com/kainat-Batool/phone-Number-Authentication/assets/91836914/aef7fab9-05a4-4d0d-83dd-0bb981fd2640)
+
+
+
+
+![image](https://github.com/kainat-Batool/phone-Number-Authentication/assets/91836914/206afcd4-28a2-422c-a520-7c43ab7b16e0)
+
+
+
+
+
 
 Authenticating a phone number with Firebase typically involves several steps, including setting up Firebase in your project, configuring your app, and handling the verification process. Here’s a detailed breakdown:
+
+
 
 Setting Up Firebase
 Create a Firebase Project:
 
+
+
 Go to the Firebase Console and create a new project or select an existing one.
 Add your Android/iOS app to the Firebase project:
 
+
+
 Follow the instructions in the Firebase Console to add your app. You'll need to provide your app's package name (e.g., com.example.myapp).
 Download and integrate the Firebase SDK:
+
+
 
 Follow the instructions to download the google-services.json file (for Android) or GoogleService-Info.plist file (for iOS) and add it to your project.
 Configuring Your App
 For Android:
 Add Firebase SDK to your project:
+
+
 
 Update your app-level build.gradle file with the Firebase dependencies.
 Generate SHA-1 and SHA-256 fingerprints:
@@ -27,7 +48,14 @@ Navigate to your Java SDK bin directory.
 
 Run 
 
+
+
+
 keytool -list -v -keystore "C:\Users\sweet\\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+
+
+
+
 
 
 Enable Phone Authentication:
