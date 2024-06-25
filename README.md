@@ -27,7 +27,7 @@ Navigate to your Java SDK bin directory.
 
 Run 
 
-keytool -list -v -keystore "C:\Users\sweet\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
+keytool -list -v -keystore "C:\Users\sweet\\.android\debug.keystore" -alias androiddebugkey -storepass android -keypass android
 
 
 Enable Phone Authentication:
